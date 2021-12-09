@@ -1,4 +1,0 @@
----
-azure_storage_connectionstring: "DefaultEndpointsProtocol=https;AccountName=adlslabpropuestas;AccountKey=6pHds3K6ZoU3BQqS4cCDFLvnRdYn0eDwNs5I04Y3mSfMoQihENlyT8hjN0/cQLJmXI6kw/R+O0JrC4OW5zc8Lw==;EndpointSuffix=core.windows.net"
-propuestas_container_name: "apilegislativo"
-source_folder: os.path.join(settings.PROJECT_ROOT, 'data')
