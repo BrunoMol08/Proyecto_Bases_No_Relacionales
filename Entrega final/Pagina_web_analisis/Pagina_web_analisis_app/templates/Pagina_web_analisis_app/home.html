@@ -1,0 +1,67 @@
+{% extends "Pagina_web_analisis_app/base.html" %}
+
+{% load static %}
+
+{% block content %} 
+<!-- Heading -->
+   <section class="page-section clearfix">
+    <div class="container">
+      <div class="intro">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'Pagina_web_analisis_app/img/AMLO_EPN.jpg' %}" alt="">
+        <div class="intro-text left-0 bg-faded p-5 rounded">
+          <h2 class="section-heading text-center mb-4" >
+            <span class="section-heading-upper">Estadísticas de comparación entre gobiernos</span>
+            <span class="section-heading-lower">AMLO VS EPN</span>
+          </h2>
+          <ul>
+            <li>
+          <p class="mb-3">Comparaci&oacute;n de iniciativas aprobadas </p>
+          </li>
+          <li>
+            <p class="mb-3">Comparaci&oacute;n de iniciativas desechadas </p>
+          </li>
+          <li>
+            <p class="mb-3">Comparaci&oacute;n por ley que modifica </p>
+          </li>
+          <li>
+            <p class="mb-3">Comparaci&oacute;n por partido </p>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Message -->
+  <section class="page-section cta">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <div class="cta-inner rounded">
+            <h3 class="section-heading mb-4">
+              <span class="section-heading-upper text-center">Análisis exploratorio de las iniciativas de ley</span>
+              <span class="section-heading-lower text-center">TF/IDF</span>
+            </h3>
+            <h4>
+            <p class="mb-0">Análisis en los temas:</p>
+            <ul>
+              <li>
+                <p class="mb-0">Ley del impuesto sobre la renta</p>
+              </li>
+              <li>
+                <p class="mb-0">Código penal federal</p>
+              </li>
+              <li>
+                <p class="mb-0">Ley general de educación</p>
+              </li>
+            </ul>
+          </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {% endblock %}
+
+ 

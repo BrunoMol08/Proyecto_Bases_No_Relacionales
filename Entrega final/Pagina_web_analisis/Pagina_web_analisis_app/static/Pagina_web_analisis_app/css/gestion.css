@@ -1,0 +1,500 @@
+body {
+  font-family: 'Lora';
+  background: linear-gradient(rgba(137, 211, 39, 0.65), rgba(49, 42, 112, 0.65)), url("../img/main.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway';
+}
+
+p {
+  line-height: 1.75;
+}
+
+.text-faded {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.site-heading {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  line-height: 1;
+  font-family: 'Raleway';
+}
+
+.site-heading .site-heading-upper {
+  display: block;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.site-heading .site-heading-lower {
+  font-size: 5rem;
+  font-weight: 100;
+  line-height: 4rem;
+}
+
+.page-section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.section-heading {
+  text-transform: uppercase;
+}
+
+.section-heading .section-heading-upper {
+  display: block;
+  font-size: 1rem;
+  font-weight: 800;
+  padding-bottom:.5rem;
+
+}
+
+.section-heading .section-heading-lower {
+  display: block;
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.section-heading .section-heading-more-lower {
+  display: block;
+  font-size: 3rem;
+  font-weight: 120;
+}
+
+
+.section-heading .section-heading-under {
+  display: block;
+  font-size: 1rem;
+  text-transform: none;
+  font-weight: 300;
+  margin-top:.5rem;
+}
+
+.bg-faded {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+#mainNav {
+  background-color: rgb(226, 65, 65);
+  font-family: 'Raleway';
+}
+
+#mainNav .navbar-brand {
+  color: #ffffff;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 800;
+}
+
+#mainNav .navbar-nav .nav-item.active .nav-link {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 0.9rem;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: rgba(255, 255, 255, 0.4);
+    text-decoration: underline;
+  }
+  #mainNav .navbar-nav .nav-item.active .nav-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+}
+
+.btn-xl {
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.intro {
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  .intro .intro-img {
+    width: 72%;
+    float: left;
+  }
+  .intro .intro-text {
+    left: 700;
+    width: 70%;
+    margin-top: 3rem;
+    background-color: rgb(58, 57, 52);
+    color: cornsilk;
+    position: absolute;
+    font-size: large;
+  }
+  .intro .intro-text .intro-button {
+    width: 100%;
+    left: 0;
+    position: absolute;
+    bottom: -2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .intro .intro-text {
+    width: 45%;
+  }
+}
+
+.introse {
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  .introse .introse-img {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .introse .introse-text {
+    left: 700;
+    width: 70%;
+    margin-top: 3rem;
+    background-color: rgb(58, 57, 52);
+    color: cornsilk;
+    position: absolute;
+    font-size: large;
+  }
+  .introse .introse-text .introse-button {
+    width: 100%;
+    left: 0;
+    position: absolute;
+    bottom: -2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .introse .introse-text {
+    width: 45%;
+  }
+}
+
+.before {
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  .before .intro-img {
+    width: 130%;
+    float: left;
+  }
+  .before .intro-text {
+    left: 950;
+    width: 70%;
+    margin-top: 8rem;
+    background-color: rgb(23, 66, 156);
+    color: cornsilk;
+    position: absolute;
+    font-size: large;
+  }
+  .before .intro-text .intro-button {
+    width: 100%;
+    left: 0;
+    position: absolute;
+    bottom: -2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .before .intro-text {
+    width: 45%;
+  }
+}
+
+.beforeLow {
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  .beforeLow .intro-img {
+    
+    width: 80%;
+    float: right;
+  }
+  .beforeLow .intro-text {
+    right: 890;
+    width: 50%;
+    margin-top: -5rem;
+    background-color: rgb(46, 163, 36);
+    color: cornsilk;
+    position: absolute;
+    float: left;
+    font-size: large;
+  }
+  .beforeLow .intro-text .intro-button {
+    width: 100%;
+    left: 0;
+    position: absolute;
+    bottom: -2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .beforeLow .intro-text {
+    width: 45%;
+  }
+}
+
+.beforeTwo {
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  .beforeTwo .intro-img {
+    width: 130%;
+    float: left;
+  }
+  .beforeTwo .intro-text {
+    left: 950;
+    width: 70%;
+    margin-top: 8rem;
+    background-color: rgb(207, 106, 24);
+    color: cornsilk;
+    position: absolute;
+    font-size: large;
+  }
+  .beforeTwo .intro-text .intro-button {
+    width: 100%;
+    left: 0;
+    position: absolute;
+    bottom: -2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .beforeTwo .intro-text {
+    width: 45%;
+  }
+}
+
+
+.beforeLowLe {
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  .beforeLowLe .intro-img {
+    
+    width: 80%;
+    float: left;
+  }
+  .beforeLowLe .intro-text {
+    left: 835;
+    width: 50%;
+    margin-top: -4rem;
+    background-color: rgb(197, 44, 172);
+    color: cornsilk;
+    position: absolute;
+    float: right;
+    font-size: large;
+  }
+  .beforeLowLe .intro-text .intro-button {
+    width: 100%;
+    left: 0;
+    position: absolute;
+    bottom: -2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .beforeLowLe .intro-text {
+    width: 45%;
+  }
+}
+
+.cta {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: rgb(242, 245, 240);
+}
+
+.cta .cta-inner {
+  position: relative;
+  padding: 3rem;
+  margin: 0.5rem;
+  background-color: rgb(238, 216, 20);
+  color: rgb(8, 8, 8);
+}
+
+.cta .cta-inner:before {
+  border-radius: 0.5rem;
+  content: '';
+  position: absolute;
+  top: -0.5rem;
+  bottom: -0.5rem;
+  left: -0.5rem;
+  right: -0.5rem;
+  border: 0.25rem solid rgba(255, 255, 255, 0.85);
+}
+
+.cta .cta-innerv {
+  position: relative;
+  padding: 3rem;
+  margin: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.cto {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: rgb(248, 153, 10);
+}
+
+.cto .cto-inner {
+  position: relative;
+  padding: 3rem;
+  margin: 0.5rem;
+  background-color: rgb(109, 235, 36);
+  color: rgb(8, 8, 8);
+}
+
+.cto .cto-inner:before {
+  border-radius: 0.5rem;
+  content: '';
+  position: absolute;
+  top: -0.5rem;
+  bottom: -0.5rem;
+  left: -0.5rem;
+  right: -0.5rem;
+  border: 0.25rem solid rgba(255, 255, 255, 0.85);
+}
+
+.cto .cto-innerv {
+  position: relative;
+  padding: 3rem;
+  margin: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+@media (min-width: 992px) {
+  .about-heading .about-heading-img {
+    position: relative;
+    z-index: 0;
+  }
+  .about-heading .about-heading-content {
+    margin-top: -5rem;
+    position: relative;
+    z-index: 1;
+  }
+}
+
+@media (min-width: 992px) {
+  .product-item .product-item-title {
+    position: relative;
+    z-index: 1;
+    margin-bottom: -3rem;
+  }
+  .product-item .product-item-img {
+    position: relative;
+    z-index: 0;
+    max-width: 60vw;
+  }
+  .product-item .product-item-description {
+    position: relative;
+    z-index: 1;
+    margin-top: -3rem;
+    max-width: 50vw;
+  }
+}
+
+
+
+@media (min-width: 992px) {
+  .list-hours {
+    width: 50%;
+    font-size: 1.1rem;
+  }
+}
+
+.address strong {
+  font-size: 1.2rem;
+}
+
+.footer {
+   background-color: rgba(63, 29, 60, 0.8);
+}
+
+
+
+.btn {
+  box-shadow: 0px 3px 3px 0px rgba(33, 37, 41, 0.1);
+}
+
+
+
+.font-weight-light {
+  font-weight: 100 !important;
+}
+
+.mbtm{
+  padding-top: 5rem;
+}
+
+.mbt{
+  padding-top: 2rem;
+}
+
+.mbt1{
+  padding-top: 1.25rem;
+}
+
+a.link{
+  color: rgba(255, 255, 255, 0.7);
+}
+
+a.link:hover{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.section-content{
+  font-family: 'Lora' !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 28px !important;
+}
+
+ul.errorlist{
+  padding-top: .75rem;
+  font-style: italic;
+  color: red;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ccc;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}

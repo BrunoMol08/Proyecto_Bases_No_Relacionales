@@ -1,0 +1,40 @@
+{% extends "Pagina_web_analisis_app/base.html" %}
+
+{% load static %}
+
+{% block content %} 
+
+
+  <!-- Message -->
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-9 mx-auto">
+        <div class="cta-inner rounded">
+          <h2 class="section-heading mb-4">
+              <p></p>
+            <span class="section-heading-lower text-center">Búsqueda de iniciativas</span>
+          </h2>
+          {% if form.errors %}
+
+          <p style="color: white;">Por favor, revisa este campo</p>
+
+          {% endif %}
+
+          <form action="/busqueda_iniciativas" method="GET"> {% csrf_token %}
+              
+            <table>
+
+                {{ form.as_table}}
+
+            </table>
+
+            <input class="text-center" type="submit" value="Enviar">
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
