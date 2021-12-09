@@ -1,0 +1,56 @@
+{% extends "Pagina_web_analisis_app/base.html" %}
+
+{% load static %}
+
+{% block content %} 
+
+<!-- Message -->
+  <br> 
+  <br>
+  <h1 class="section-heading mb-4">
+    <p></p>
+  <span class="section-heading-lower text-center">El an&aacute;lisis TF/IDF de la iniciativa: <strong>{{iniciativa}}</strong></span>
+  </h1>
+
+<body>
+  <section class="page-section cta">
+    <div class="container">
+    {% if abstract %}
+    
+    <p class='mb-0'><Strong>Los tokens obtenidos son:</Strong></p>
+    <ul>
+        {% for i in tokens %}
+        <li>
+            <p class='mb-0'>{{i}} &nbsp; </p>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <p class='mb-0'><strong> Los abstracts relevantes: </strong></p>
+    <ul>
+
+        {% for i in abstract %}
+        <li>
+            <p class='mb-0'> {{i}} &nbsp; </p>
+        </li>
+        {% endfor %}
+
+    </ul>
+    <p class='mb-0'><strong>Relevancia obtenida es:</strong></p>
+    <ul>
+        {% for i in relevancia %}
+        <li>
+            <p class='mb-0'> {{i}} &nbsp; </p>
+        </li>
+        {% endfor %}
+    </ul>
+    {% else %}
+        <p class='mb-0'>Iniciativa no encontrada</p>
+    {% endif %}
+
+    <a class="nav-link" href="{% url 'Busqueda id' %}" target="_blank">Consulta los resultados en nuestra búsqueda por ID</a>
+  </div>
+</section>
+</body>
+
+{% endblock %}
