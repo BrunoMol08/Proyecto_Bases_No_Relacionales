@@ -134,7 +134,7 @@ EMAIL_HOST = "smtp.gmail.com"
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = "0809bruno@gmail.com"
-EMAIL_HOST_PASSWORD = "08BrunoMol#"
+EMAIL_HOST_PASSWORD = ""
 
 #ROOT that help us with te open of paths
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
